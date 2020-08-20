@@ -1,6 +1,5 @@
 package com.psl.jfx_scene_manager.scene_manager;
 
-import com.psl.jfx_scene_manager.Main;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
