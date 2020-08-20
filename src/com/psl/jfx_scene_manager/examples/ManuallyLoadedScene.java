@@ -22,8 +22,7 @@ public class ManuallyLoadedScene {
         vBox.setPrefSize(600, 400);
         vBox.setAlignment(Pos.CENTER);
 
-        Label l1 = new Label();
-        l1.setText("Manually loaded scene");
+        Label l1 = new Label("Manually loaded scene");
 
         Button backButton = new Button();
         backButton.setText("Go Back");

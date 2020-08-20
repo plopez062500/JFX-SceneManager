@@ -21,8 +21,7 @@ public class NonCachedScene {
         vBox.setPrefSize(600, 400);
         vBox.setAlignment(Pos.CENTER);
 
-        Label l1 = new Label();
-        l1.setText("Non cached scene");
+        Label l1 = new Label("Non cached scene");
 
         Button backButton = new Button();
         backButton.setText("Go Back");
