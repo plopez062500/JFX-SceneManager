@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.net.URL;
 import java.util.LinkedList;
 
 public class SceneManager {
@@ -61,13 +62,13 @@ public class SceneManager {
     /**
      * Create a Scene object from a fxml file
      * @param fxmlPath
-     * The path to the fxml file relative the the Main class
+     * The path to the fxml file
      * @return
      * A Scene object created from loading the specified FXML file
      */
-    public Scene createSceneFromFXML(String fxmlPath){
+    public Scene createSceneFromFXML(URL fxmlPath){
         try{
-            Parent p = FXMLLoader.load(Main.class.getResource(fxmlPath));
+            Parent p = FXMLLoader.load(fxmlPath);
             return new Scene(p);
         }catch (Exception e){
             e.printStackTrace();
